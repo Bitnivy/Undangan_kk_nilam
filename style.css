@@ -1,0 +1,135 @@
+html, body{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    
+    background: #ffcce6;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-attachment: fixed; 
+}
+.cover {
+  width: 400px;
+  height: 750px;
+  background-color: #8a0000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.cover h1{
+  color: #cb7600;
+  margin: auto;
+  font-size: 2.7em;
+}
+
+.cover .foto_1 {
+  width: 250px;
+  height: 350px;
+  border: 3px solid #fff;
+  position: absolute;
+  transform: translateX(-50%);
+  top: -3px;
+  left: 50%;
+  border-radius: 0px 0px 250px 250px;
+  overflow: hidden;
+}
+
+.cover h2 {
+  color: #cb7600;
+  margin: auto;
+}
+
+.cover .ca {
+  width: 100%;
+  margin-top: 0px;
+  justify-content: flex-start;
+}
+
+.cover .cc {
+  margin-top: 260px;
+  width: 150px;
+}
+
+
+
+.cover .cf {
+  width: 100%;
+  justify-content: flex-end;
+}
+/* pa */
+.pa {
+  width: 400px;
+  height: 750px;
+  border-radius: 20px;
+  background: url("f.png");
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-position: center; 
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  animation: both;
+  animation: autoShowAnimation both;
+  animation-timeline: view(70% 5%);
+}
+
+.pa p1 {
+  margin-top: 200px;
+  font-size: 2em;
+}
+
+.pa p3 {
+  font-size: 3em;
+  text-align: center;
+}
+
+.pa p2 {
+  bottom: 10px;
+  font-size: 1.5em;
+}
+
+.pa p4 {
+  text-align: center;
+  padding: 10%;
+}
+
+/* pb */
+.pb {
+  width: 400px;
+  height: 750px;
+  background-color: #8a0000;
+  display: flex;
+  flex-direction: column;
+}
+
+.pb{
+    animation: autoShowAnimation both;
+    animation-timeline: view(70% 5%);
+
+}
+@keyframes autoShowAnimation{
+    from{
+        opacity: 0;
+        transform: translateY(200px) scale(0.3);
+    }to{
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
