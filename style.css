@@ -10,7 +10,7 @@ body {
     align-items: center;
     width: 100vw;
     
-    background: url('bg');
+    background: #8a0000;
     background-size: cover;
     background-repeat: no-repeat; 
     background-position: center; 
