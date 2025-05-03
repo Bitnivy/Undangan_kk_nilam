@@ -19,7 +19,7 @@ body {
 .cover {
   width: 400px;
   height: 750px;
-  background-color: #8a0000;
+  background-color: #5d0000;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,10 +30,10 @@ img {
   height: auto;
 }
 
-.cover h1{
-  color: #cb7600;
-  margin: auto;
-  font-size: 2.7em;
+.cover p2{
+  color: #fff;
+  font-size: 50px;
+  margin-bottom: auto;
 }
 
 .cover .foto_1 {
@@ -48,9 +48,9 @@ img {
   overflow: hidden;
 }
 
-.cover h2 {
-  color: #cb7600;
-  margin: auto;
+.cover p1 {
+  color: #fff;
+  font-size: 30px;
 }
 
 .cover .ca {
@@ -62,20 +62,20 @@ img {
 .cover .cc {
   margin-top: 260px;
   width: 150px;
+  margin-bottom: 20px;
 }
 
 
 
 .cover .cf {
   width: 100%;
-  justify-content: flex-end;
 }
 /* pa */
 .pa {
   width: 400px;
   height: 750px;
-  border-radius: 20px;
-  background: url("f.png");
+  border-radius: 20px 20px 0px 0px;
+  background: #d1b89b;
   background-size: cover;
   background-repeat: no-repeat; 
   background-position: center; 
@@ -91,18 +91,17 @@ img {
 }
 
 .pa p1 {
-  margin-top: 200px;
-  font-size: 2em;
+  font-size: 1em;
 }
 
 .pa p3 {
-  font-size: 3em;
+  font-size: 2em;
   text-align: center;
 }
 
 .pa p2 {
   bottom: 10px;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 .pa p4 {
@@ -114,16 +113,72 @@ img {
 .pb {
   width: 400px;
   height: 750px;
-  background-color: #8a0000;
+  background-color: #385e3c;
+  color: #fff;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
-.pb{
-    animation: autoShowAnimation both;
-    animation-timeline: view(70% 5%);
-
+.pb .gbr_a {
+  width: 100px;
+  margin-bottom: 30px;
+  animation: autoShowAnimation both;
+  animation-timeline: view(70% 5%);
 }
+.pb p1 {
+  font-size: 15px;
+  animation: autoShowAnimation both;
+  animation-timeline: view(70% 5%);
+}
+.pb p2{
+  padding: 10%;
+  animation: autoShowAnimation both;
+  animation-timeline: view(70% 5%);
+}
+
+.pb p3, .pb p5, .pb p6 {
+  font-size: 45px;
+  animation: autoShowAnimation both;
+  animation-timeline: view(70% 5%);
+}
+
+.pb p4, .pb p7 {
+  font-size: 15px;
+  animation: autoShowAnimation both;
+  animation-timeline: view(70% 5%);
+}
+
+.pb .line_1{
+  margin-bottom: 20px;
+}
+
+.pb .line_2 {
+  margin-top: 20px;
+}
+
+/* pc */
+.pc {
+  width: 400px;
+  height: 750px;
+  background-color: #5e4138;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.pc p1{
+  padding: 10%;
+  font-size: 15px;
+  animation: autoShowAnimation both;
+  animation-timeline: view(70% 5%);
+}
+
 @keyframes autoShowAnimation{
     from{
         opacity: 0;
